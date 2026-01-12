@@ -109,7 +109,7 @@ I'm currently **open to opportunities** — both consulting engagements and full
 <table>
 <tr>
 <td>✅</td>
-<td><b>UK training + Southeast Asia market expertise</b></td>
+<td><b>Based in UK and Southeast Asia</b></td>
 </tr>
 <tr>
 <td>✅</td>
