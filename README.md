@@ -10,7 +10,7 @@
 ---
 
 **Nic Chin** — Lead AI Architect  
-*UK-trained engineer specializing in multi-agent AI systems, LLM orchestration, and real-time analytics*
+*10+ years full-stack · 3+ years AI/LLM systems · Multi-agent architectures & real-time analytics*
 
 </div>
 
@@ -109,11 +109,11 @@ I'm currently **open to opportunities** — both consulting engagements and full
 <table>
 <tr>
 <td>✅</td>
-<td><b>Based in UK and Southeast Asia</b></td>
+<td><b>10+ years full-stack development, 3+ years AI/LLM systems</b></td>
 </tr>
 <tr>
 <td>✅</td>
-<td><b>Track record of quantifiable business outcomes</b></td>
+<td><b>End-to-end ownership: idea → architecture → production → polish</b></td>
 </tr>
 <tr>
 <td>✅</td>
