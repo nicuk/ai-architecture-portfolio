@@ -53,7 +53,7 @@
 | 📊 [**Market Intelligence Agent (ELAI)**](./case-studies/market-intelligence-agent.md) | Crypto / Trading | 336% engagement, 40% cost savings | `FastAPI` `Gemini` `Redis` |
 | 🤖 [**Social Automation System**](./case-studies/social-automation-extension.md) | Marketing / Growth | 3000x engagement improvement | `Chrome Extension` `TypeScript` |
 | 📋 [**Compliance AI Processor**](./case-studies/compliance-ai-processor.md) | Legal / RegTech | 75% time reduction, 99.8% accuracy | `React 19` `Flask` `Gemini` |
-| 🔐 [**User Verification Ecosystem (TAU Network)**](./case-studies/user-verification-ecosystem.md) | Web3 / Auth | 200K+ users served | `Supabase` `PostgreSQL` |
+| 🔐 [**User Verification Ecosystem (TAU Network)**](./case-studies/user-verification-ecosystem.md) | Web3 / Auth | 15K+ users served | `Supabase` `PostgreSQL` |
 | 📈 [**Trading Analytics Dashboard (ChromeCryptoSense)**](./case-studies/trading-analytics-dashboard.md) | FinTech / Crypto | 45% portfolio improvement | `TypeScript` `Multi-Model LLM` |
 
 ---
