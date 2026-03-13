@@ -45,6 +45,20 @@
 
 ---
 
+## 🔥 Flagship Project
+
+**[DocsFlow — Multi-Tenant Document Intelligence SaaS](https://github.com/nicuk/docsflow)** · [Live Demo](https://docsflow.app)
+
+Full-stack RAG platform with open source code and 1,188 commits. Key architectural decisions:
+- **Hybrid retrieval**: Dense vectors + BM25 sparse vectors with Reciprocal Rank Fusion
+- **Hierarchical 2-stage search**: Document-level ranking → chunk-level retrieval for scale
+- **4-layer tenant isolation**: RLS + Pinecone namespaces + Clerk auth + subdomain routing
+- **Circuit breaker failover**: 3-tier LLM cascade with emergency fallback
+
+→ [View source code & full README](https://github.com/nicuk/docsflow)
+
+---
+
 ## 📂 Case Studies
 
 Each case study includes architecture diagrams, technical decisions, and measurable results.
