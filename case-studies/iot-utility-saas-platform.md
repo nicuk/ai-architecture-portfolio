@@ -99,7 +99,7 @@ Built a full-stack B2B SaaS platform that ingests real-time IoT meter data, proc
 2. **Signature-Based Deduplication**
    - Each reading keyed by `date + device_id`
    - Same data arriving via MQTT and CSV is deduplicated at insert time
-   - Prevented a phantom device counting bug (~10x inflated device count)
+   - Prevented a phantom device counting bug (480 phantom devices → 44 real)
 
 3. **Consumption Deltas at Query Time, Not Storage**
    - Raw cumulative readings stored as meters report them
@@ -113,8 +113,17 @@ Built a full-stack B2B SaaS platform that ingests real-time IoT meter data, proc
 
 5. **Format-Agnostic CSV Parsing**
    - Auto-detects vertical vs. horizontal CSV layout
-   - Locale-specific decimal handling
+   - Locale-specific decimal handling (German comma vs. period separators)
    - Device type classification across 5 meter categories
+   - wMBus protocol parsing for Engelmann HCA devices — discovered and corrected incorrect vendor device spec during implementation
+
+6. **bved API Integration**
+   - Standardized API implementation for connecting with 5 German measurement service company (MSC) platforms
+   - Comprehensive documentation package: API spec, implementation roadmap, quick start guide, platform onboarding templates
+
+7. **AI-Powered Invoice Processing**
+   - Document upload with AI analysis for heating cost invoices via Vercel AI SDK
+   - Automated extraction of cost categories and allocation factors
 
 ---
 
@@ -234,11 +243,12 @@ After: 2.8s mobile LCP ✅
 
 | Measure | Implementation |
 |---------|---------------|
-| CVE Response | Same-day patch of React RCE vulnerability |
+| CVE Response | Same-day patch of CVE-2025-55182 (React RCE) with React 19.1.2 upgrade |
 | Spam Protection | 5-layer system: honeypot, rate limiting, validation |
 | Webhook Security | Removed exposed URLs, fixed race conditions |
 | RLS Architecture | Row-level security on every table with 4-role policy system |
-| Data Privacy | Data isolation by design, encrypted credentials |
+| GDPR Compliance | Data isolation by design, encrypted credentials, secure credential sharing |
+| Admin Stability | 5-layer guard: Zustand deserialization fix, URL guards, auth hook guards, error boundaries |
 
 ---
 

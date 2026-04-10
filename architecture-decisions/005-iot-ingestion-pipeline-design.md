@@ -1,8 +1,8 @@
 # ADR-005: IoT Ingestion Pipeline Design
 
-**Status**: Accepted
-**Date**: 2025–2026
-**Context**: B2B SaaS Platform — Real-time IoT Meter Monitoring
+**Status**: Accepted  
+**Date**: 2025–2026  
+**Context**: IoT Utility SaaS Platform — Real-time Meter Monitoring (see [case study](../case-studies/iot-utility-saas-platform.md))
 
 ---
 

@@ -10,7 +10,7 @@
 ---
 
 **Nic Chin** — Lead AI Architect & Fractional CTO
-*Multi-agent architectures, RAG platforms & AI-driven automation*
+*End-to-end delivery: architecture → development → production*
 
 </div>
 
@@ -21,24 +21,24 @@
 <table>
 <tr>
 <td align="center">
-<img src="https://img.shields.io/badge/70%25-faster-blue?style=for-the-badge" alt="70% faster"/>
+<img src="https://img.shields.io/badge/50--75%25-AI_cost_reduction-blue?style=for-the-badge" alt="50-75% AI cost reduction"/>
 <br/>
-<sub><b>Development Cycles</b></sub>
+<sub><b>Across 5 Production Platforms</b></sub>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/40%25-cost_reduction-green?style=for-the-badge" alt="40% cost reduction"/>
+<img src="https://img.shields.io/badge/82%25-faster_page_load-green?style=for-the-badge" alt="82% faster page load"/>
 <br/>
-<sub><b>Token Optimization</b></sub>
+<sub><b>15.6s → 2.8s Mobile LCP</b></sub>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/99.8%25-accuracy-purple?style=for-the-badge" alt="99.8% accuracy"/>
+<img src="https://img.shields.io/badge/15--20_hrs/wk-automated-purple?style=for-the-badge" alt="15-20 hrs/week automated"/>
 <br/>
-<sub><b>Document Processing</b></sub>
+<sub><b>AI Marketing Automation</b></sub>
 </td>
 <td align="center">
-<img src="https://img.shields.io/badge/82%25-LCP_improvement-orange?style=for-the-badge" alt="82% LCP improvement"/>
+<img src="https://img.shields.io/badge/24/24-enterprise_criteria-orange?style=for-the-badge" alt="24/24 enterprise criteria"/>
 <br/>
-<sub><b>Performance Engineering</b></sub>
+<sub><b>Pharma Pilot Approved</b></sub>
 </td>
 </tr>
 </table>
@@ -59,44 +59,42 @@ Full-stack RAG platform with open source code and 1,188 commits. Key architectur
 
 ---
 
-## 📂 Case Studies
+## 📂 Featured Case Studies
 
-Each case study includes architecture diagrams, technical decisions, and measurable results.
-
-### Featured
+Each includes architecture diagrams, technical decisions with rationale, and measurable results.
 
 | Project | Domain | Key Outcome | Tech Stack |
 |:--------|:-------|:------------|:-----------|
-| 🛡️ [**Production Readiness & Security Hardening (Pharma SaaS)**](./case-studies/production-readiness-pharma-saas.md) | Pharma / Biotech | 24/24 acceptance criteria, enterprise pilot approved | `Django` `EKS` `AI Guardrails` |
-| 🏢 [**IoT Utility SaaS Platform**](./case-studies/iot-utility-saas-platform.md) | PropTech / IoT | 15-person team led, 1,746 commits shipped, 82% LCP improvement | `Next.js 16` `Supabase` `MQTT` |
-| 🎮 [**Multi-Agent Game Platform (SculptAI)**](./case-studies/multi-agent-game-platform.md) | Game Dev / AI | 70% time reduction, $350K seed raised | `GPT-4` `Unity` `Multi-Agent` |
+| 🔍 [**AI Codebase Audit SaaS**](./case-studies/ai-codebase-audit-saas.md) | DevTools / Due Diligence | 3-min audits replacing 2-week cycles — [Live](https://systemaudit.dev) | `Next.js 16` `Claude 4.6` `Stripe` |
+| 🤖 [**AI Marketing Automation Platform**](./case-studies/multi-agent-marketing-platform.md) | Creative Industry / AI | 15-20 hrs/week recovered, voice fidelity validated by client's network — 18-week sole delivery | `Next.js 14` `Supabase` `pgvector` `OpenRouter` |
+| ⚖️ [**AI Legal Document Analyzer**](./case-studies/ai-legal-document-analyzer.md) | Legal Tech / Investment Funds | 150-200pg LPAs processed in minutes, Word Add-in, 60% API cost reduction via caching | `Next.js 15` `GPT-4o` `pgvector` `Office.js` |
+| 🏗️ [**IoT Utility SaaS Platform**](./case-studies/iot-utility-saas-platform.md) | PropTech / IoT | 15-person team led, 82% mobile LCP improvement, 1,746 commits shipped | `Next.js 16` `Supabase` `MQTT` `Docker` |
+| 🔒 [**Production Readiness — Pharma SaaS**](./case-studies/production-readiness-pharma-saas.md) | Pharma / Enterprise | 24/24 acceptance criteria passed, enterprise pilot approved in 7 weeks | `Django` `Kubernetes` `AWS` `CloudWatch` |
+| 🧠 [**AI Trader Psychology Platform**](./case-studies/trader-psychology-platform.md) | FinTech / EdTech | Dual-app platform: hybrid deterministic + AI scoring, automated revenue funnel with CRM | `Next.js 14` `GPT-4o-mini` `Gemini Flash` `Supabase` |
 
-<details>
-<summary><b>View all case studies</b></summary>
+## 📁 Additional Case Studies
 
 | Project | Domain | Key Outcome | Tech Stack |
 |:--------|:-------|:------------|:-----------|
-| 📊 [**Market Intelligence Agent (ELAI)**](./case-studies/market-intelligence-agent.md) | Crypto / Trading | 336% engagement, 40% cost savings | `FastAPI` `Gemini` `Redis` |
+| 🎮 [**Multi-Agent Game Platform**](./case-studies/multi-agent-game-platform.md) | Game Dev / AI | 70% time reduction, $350K seed raised | `GPT-4` `Unity` `Multi-Agent` |
+| 📊 [**Market Intelligence Agent**](./case-studies/market-intelligence-agent.md) | Crypto / Trading | 336% engagement increase, 40% cost savings | `FastAPI` `Gemini` `Redis` |
 | 🤖 [**Social Automation System**](./case-studies/social-automation-extension.md) | Marketing / Growth | 3000x engagement improvement | `Chrome Extension` `TypeScript` |
-| 📋 [**Compliance AI Processor**](./case-studies/compliance-ai-processor.md) | Legal / RegTech | 75% time reduction, 99.8% accuracy | `React 19` `Flask` `Gemini` |
-| 🔐 [**User Verification Ecosystem (TAU Network)**](./case-studies/user-verification-ecosystem.md) | Web3 / Auth | 15K+ users served | `Supabase` `PostgreSQL` |
-| 📈 [**Trading Analytics Dashboard (ChromeCryptoSense)**](./case-studies/trading-analytics-dashboard.md) | FinTech / Crypto | 45% portfolio improvement | `TypeScript` `Multi-Model LLM` |
-
-</details>
+| 🔐 [**User Verification Ecosystem**](./case-studies/user-verification-ecosystem.md) | Web3 / Auth | 15K+ users served | `Supabase` `PostgreSQL` |
+| 📈 [**Trading Analytics Dashboard**](./case-studies/trading-analytics-dashboard.md) | FinTech / Crypto | 45% portfolio improvement | `TypeScript` `Multi-Model LLM` |
 
 ---
 
 ## 🧠 Architecture Decision Records
 
-How I approach complex technical decisions:
+Real decisions from real projects — not theoretical patterns:
 
 | ADR | Topic | Key Insight |
 |:----|:------|:------------|
-| 📘 [**ADR-001**](./architecture-decisions/001-multi-model-llm-selection.md) | Multi-Model LLM Selection | Dynamic routing based on task complexity |
-| 📗 [**ADR-002**](./architecture-decisions/002-realtime-vs-batch-processing.md) | Real-Time vs Batch Processing | Lambda Architecture with clear hot/cold paths |
-| 📙 [**ADR-003**](./architecture-decisions/003-token-cost-optimization.md) | Token Cost Optimization | Multi-layered strategy for 40%+ savings |
-| 📕 [**ADR-004**](./architecture-decisions/004-immutable-audit-architecture.md) | Immutable Audit Architecture | Append-only logging for regulated industries |
-| 📒 [**ADR-005**](./architecture-decisions/005-iot-ingestion-pipeline-design.md) | IoT Ingestion Pipeline Design | Protocol-agnostic telemetry with deduplication |
+| 📘 [**ADR-001**](./architecture-decisions/001-multi-model-llm-selection.md) | Multi-Model LLM Selection | 50-75% cost reduction across 5 production platforms via task-specific routing |
+| 📗 [**ADR-002**](./architecture-decisions/002-realtime-vs-batch-processing.md) | Real-Time vs Batch Processing | Hybrid patterns from IoT, Marketing, and Legal platforms — route by who's waiting |
+| 📙 [**ADR-003**](./architecture-decisions/003-token-cost-optimization.md) | Token Cost Optimization | Pre-computed tags, semantic caching, model routing — real numbers from production |
+| 📕 [**ADR-004**](./architecture-decisions/004-immutable-audit-architecture.md) | Immutable Audit Architecture | CloudWatch append-only logs for regulated industries — $0 marginal cost |
+| 📒 [**ADR-005**](./architecture-decisions/005-iot-ingestion-pipeline-design.md) | IoT Ingestion Pipeline Design | Protocol-agnostic ingestion — fixed a 480→44 phantom device bug |
 
 ---
 
@@ -105,50 +103,30 @@ How I approach complex technical decisions:
 <details>
 <summary><b>🤖 AI/ML Engineering</b></summary>
 
-- **LLM Orchestration**: GPT-4, Gemini, Claude, LLaMA, Groq — multi-model with intelligent fallback
-- **Multi-Agent Systems**: LangGraph, CrewAI, task decomposition, autonomous agents, self-correction loops
-- **RAG**: pgvector, hybrid search (dense + BM25), 96.8% accuracy in document intelligence
-- **AI Security**: Prompt injection guardrails, output validation, PII filtering, LLM call traceability
-- **Cost Optimization**: 40-45% reduction through batching, caching, model selection
+- **Multi-Model Orchestration**: Production routing across GPT-4o, Gemini Flash, Claude Sonnet/Haiku, with circuit breaker failover — 50-75% cost reduction vs single-model
+- **RAG Systems**: Hybrid retrieval (dense vectors + BM25 + Reciprocal Rank Fusion), pgvector, voice replication validated by professional networks
+- **Cost Engineering**: Pre-computed analysis, semantic caching (SHA-256 TTL), task-specific model routing — $180-225/month total for 5-tool AI platform
+- **Regulated AI**: Zero-retention processing, immutable audit trails, AI guardrails (input/output), prompt injection detection
 
 </details>
 
 <details>
-<summary><b>⚙️ Backend Systems</b></summary>
+<summary><b>⚙️ Full-Stack Systems</b></summary>
 
-- **Languages**: Python (FastAPI, Django REST Framework), TypeScript (Node.js, Next.js)
-- **Databases**: PostgreSQL (+ pgvector), Supabase, Redis, Drizzle ORM
-- **Architecture**: Event-driven, real-time processing, Celery async pipelines, queue management
-- **APIs**: REST, MQTT, webhook orchestration
-
-</details>
-
-<details>
-<summary><b>🚀 Production Infrastructure</b></summary>
-
-- **Deployment**: Kubernetes (EKS), Docker, Vercel, AWS, serverless, edge functions
-- **Monitoring**: CloudWatch (logs, metrics, alarms), performance tracking, error recovery
-- **Scale**: Production systems serving 15K+ users with high availability
-- **DR**: Backup/restore validation, HPA autoscaling, rollback procedures
+- **Frontend**: Next.js 14-16 (App Router), React 19, TypeScript, Tailwind CSS, Radix UI, Office.js (Word Add-in)
+- **Backend**: Supabase (PostgreSQL + Edge Functions + Auth + RLS), Drizzle ORM, Django, FastAPI
+- **IoT**: MQTT broker, wMBus protocol parsing, Docker microservices, real-time telemetry ingestion
+- **Integrations**: Gmail OAuth + Pub/Sub, Apollo.io, Firecrawl, Stripe, GoHighLevel CRM, WordPress REST API
 
 </details>
 
 <details>
-<summary><b>🔒 Security & Compliance</b></summary>
+<summary><b>🚀 Delivery & Infrastructure</b></summary>
 
-- **Application Security**: OWASP-aligned assessments, JWT hardening, tenant isolation, AI guardrails, CVE patching
-- **Infrastructure Hardening**: K8s pod security, RBAC, container scanning (Trivy), IaC scanning (Checkov)
-- **Compliance Readiness**: SOC 2, ISO 27001, FDA 21 CFR Part 11 gap analysis and controls
-- **Audit Architecture**: Immutable audit trails, distributed request tracing, LLM call traceability
-
-</details>
-
-<details>
-<summary><b>📡 IoT & Data Engineering</b></summary>
-
-- **Protocols**: MQTT, wireless meter protocols, multi-manufacturer device parsing
-- **Pipelines**: Real-time telemetry ingestion, deduplication, anomaly detection
-- **Domain**: Utility regulations, heating cost allocation, meter management
+- **Team Leadership**: Led 15-person engineering team, merged 100+ PRs, managed staging→main release pipeline
+- **Deployment**: Vercel, AWS (EKS, RDS, CloudWatch), serverless, edge functions, Docker
+- **Security**: Row-Level Security on every table, same-day CVE patching, 5-layer spam protection, GDPR compliance
+- **Methodology**: Milestone-based delivery with client feedback loops — 6 milestones, 18 weeks, 100% acceptance rate
 
 </details>
 
@@ -161,7 +139,7 @@ Currently taking select AI architecture and consulting engagements.
 <table>
 <tr>
 <td>✅</td>
-<td><b>14 production systems delivered and running</b></td>
+<td><b>12 production AI systems delivered and running</b></td>
 </tr>
 <tr>
 <td>✅</td>

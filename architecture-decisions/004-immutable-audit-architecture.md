@@ -1,8 +1,8 @@
 # ADR-004: Immutable Audit Architecture for Regulated Industries
 
-**Status**: Accepted
-**Date**: 2026
-**Context**: Regulated SaaS Platform — Production Readiness Engagement
+**Status**: Accepted  
+**Date**: 2026  
+**Context**: Pharma SaaS Platform — Production Readiness Engagement (see [case study](../case-studies/production-readiness-pharma-saas.md))
 
 ---
 
