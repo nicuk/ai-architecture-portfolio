@@ -139,7 +139,7 @@ Currently taking select AI architecture and consulting engagements.
 <table>
 <tr>
 <td>✅</td>
-<td><b>12 production AI systems delivered and running</b></td>
+<td><b>13 production AI systems delivered and running</b></td>
 </tr>
 <tr>
 <td>✅</td>
